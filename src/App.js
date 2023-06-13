@@ -1,8 +1,7 @@
 import React from 'react';
 import { Route,Routes } from 'react-router-dom';
 import Todo from './Components/Todo'
-import Select from './Components/Select'
-import Delete from './Components/Delete'
+import {Select,Delete} from './Components/Operation';
 const App = () => {
   return (
     <>
